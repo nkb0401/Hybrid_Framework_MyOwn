@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HRM]">
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+  <listeners>
+    <listener class-name="Commons.MethodListener"/>
+    <listener class-name="reportConfig.ReportNGListener"/>
+  </listeners>
+  <test thread-count="5" name="run_Firefox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="HRM_Employee.Employee_1_Add_Employee">
+        <methods>
+          <include name="deleteALlFilesInReportScreenshot"/>
+          <include name="cleanBrower"/>
+          <include name="Employee_1_Add_New_Employee"/>
+          <include name="Employee_1_Edit_Personal_Detail"/>
+          <include name="Employee_1_Upload_Avatar"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- HRM_Employee.Employee_1_Add_Employee -->
+    </classes>
+  </test> <!-- run_Firefox(failed) -->
+</suite> <!-- Failed suite [HRM] -->

@@ -1,0 +1,3 @@
+[INFO ] [2021-11-30 14:41:25,618] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
+[INFO ] [2021-11-30 14:41:30,303] Pre-conditon: Step2: Login by admin role
+[INFO ] [2021-11-30 14:41:38,814] Post-Condition: Close browerchrome

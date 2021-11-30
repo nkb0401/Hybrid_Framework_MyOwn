@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="TestCase"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/commons-io-2.7.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/httpclient5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/httpcore5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/jarchivelib-1.0.0.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="Libraries/WebDriverManager/webdrivermanager-4.2.0.jar"/>
+	<classpathentry kind="lib" path="Libraries/03_selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="Libraries/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="Libraries/Log4J/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="Libraries/Log4J/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="Libraries/Log4J/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="Libraries/Log4J/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="Libraries/Log4J/log4j-1.2.16.jar"/>
+	<classpathentry kind="src" path="Actions"/>
+	<classpathentry kind="src" path="Interface"/>
+	<classpathentry kind="src" path="RunTestcase"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
