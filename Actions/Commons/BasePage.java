@@ -21,6 +21,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import LoginPage_UI.BasePage_UI;
+import io.qameta.allure.Step;
 
 
 public class BasePage {
@@ -477,44 +478,50 @@ public class BasePage {
 	
 
 	//----------------------------------------------------/specific case/--------------------------------------------------	
+	@Step("Enter value to textbox")
 	public void enterToTextboxByID(WebDriver driver, String textboxID, String value) {
 		waitForElementVisible(driver, BasePage_UI.TEXTBOX_BY_ID, textboxID);
 		sendKeyToElement(driver,  BasePage_UI.TEXTBOX_BY_ID, value,textboxID);
 	}
 	
+	@Step("click checkbox")
 	public void clickToCheckboxByLabel(WebDriver driver, String checkboxLabelName) {
 		waitForElementClickable(driver, BasePage_UI.CHECKBOX_BY_LABEL , checkboxLabelName);
 		checktoCheckboxOrRadio(driver, BasePage_UI.CHECKBOX_BY_LABEL ,checkboxLabelName);
 	}
 	
+	@Step("click radio button")
 	public void clickToRadioByLabel(WebDriver driver, String radioLabelName) {
 		waitForElementClickable(driver, BasePage_UI.RADIO_BY_LABEL , radioLabelName);
 		checktoCheckboxOrRadio(driver, BasePage_UI.RADIO_BY_LABEL ,radioLabelName);
-	}  
+	} 
 	
+	@Step("selecte dropdown list")
 	public void selectDropdownByID(WebDriver driver, String dropdownID, String itemName) {
 		waitForElementClickable(driver,BasePage_UI.DROPDOWN_BY_ID, dropdownID);
 		selectDropdownByText(driver, BasePage_UI.DROPDOWN_BY_ID, itemName, dropdownID);
 		
 	}
 	
+	@Step("get value dropdown list")
 	public String getDropdownSelectedValueByID(WebDriver driver, String dropdownID ) {
 		waitForElementClickable(driver,BasePage_UI.DROPDOWN_BY_ID, dropdownID);
 		return getSelectedDropdown(driver, BasePage_UI.DROPDOWN_BY_ID);
-		
 	}
 	
+	@Step("click button")
 	public void clickToButtonByID(WebDriver driver, String buttonId) {
 		waitForElementClickable(driver, BasePage_UI.BUTTON_BY_ID, buttonId);
 		clickToElement(driver, BasePage_UI.BUTTON_BY_ID,buttonId);
 	}
 	
+	@Step("open menu page")
 	public void openMenuPage(WebDriver driver, String menuPageName) {
 		waitForElementClickable(driver,BasePage_UI.MENU_BY_NAME, menuPageName);
 		clickToElement(driver, BasePage_UI.MENU_BY_NAME,menuPageName);
 	}
 	
-	
+	@Step("open sub menu page")
 	public void openSubMenuPage(WebDriver driver, String menuPageName, String subMenuPageName) {
 		waitForElementClickable(driver,BasePage_UI.MENU_BY_NAME, menuPageName);
 		clickToElement(driver, BasePage_UI.MENU_BY_NAME,menuPageName);
@@ -522,6 +529,7 @@ public class BasePage {
 		clickToElement(driver, BasePage_UI.MENU_BY_NAME,subMenuPageName);
 	}
 	
+	@Step("open child submenu page")
 	public void openChildSubMenuPage(WebDriver driver, String menuPageName, String subMenuPageName, String ChildSubMenuPage) {
 		waitForElementClickable(driver,BasePage_UI.MENU_BY_NAME, menuPageName);
 		clickToElement(driver, BasePage_UI.MENU_BY_NAME,menuPageName);
@@ -538,12 +546,13 @@ public class BasePage {
 	 * @param textboxIDName
 	 * @return attribute value
 	 */
+	@Step("get value of checkbox")
 	public String getTextboxValueByID(WebDriver driver, String textboxIDName) {
 		waitForElementVisible(driver, BasePage_UI.TEXTBOX_BY_ID,textboxIDName);
 		return getElementAttributeValue(driver, BasePage_UI.TEXTBOX_BY_ID, "value",textboxIDName);
 	}
 	
-
+	@Step("get value of cell on table")
 	public String getValueDisplayedAtTable(WebDriver driver,String tableID, String headerName, String rowIndex) {
 		int columnIndex=getElementSize(driver, BasePage_UI.TABLE_HEADER_BY_ID_AND_NAME, tableID,headerName)+1;
 		waitForElementVisible(driver,  BasePage_UI.TABLE_ROW_BY_COLUMN_INDEX_AND_ROW_INDEX, tableID,rowIndex,String.valueOf(columnIndex));

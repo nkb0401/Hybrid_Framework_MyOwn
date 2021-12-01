@@ -13,8 +13,15 @@ import LoginPage_action.EmployeeList_Object;
 import LoginPage_action.LoginPage_Object;
 import LoginPage_action.Page_Generator;
 import LoginPage_action.PersonalDetail_Object;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 
-
+@Epic("Epic")
+@Feature("Feature - Add new employee")
 public class Employee_1_Add_Employee extends BaseTest{
 	String statusValue;
 	
@@ -32,7 +39,9 @@ public class Employee_1_Add_Employee extends BaseTest{
 		DashbroadPage=Page_Generator.getDashboardPage(driver);
 	}
 	
-	
+	@Description("Login and add new employee")
+	@Story("Story HRM-37")
+	@Severity(SeverityLevel.CRITICAL)
 	@Test
 	public void Employee_1_Add_New_Employee() { 
 		log.info(" AddNewEmployee - Step 1: open 'Employee list' " );
@@ -90,14 +99,14 @@ public class Employee_1_Add_Employee extends BaseTest{
 	
 	
 	@Test
-	public void Employee_1_Upload_Avatar() {
+	public void Employee_2_Upload_Avatar() {
 		
 		
 		
 	}
 	
 	@Test
-	public void Employee_1_Edit_Personal_Detail() {
+	public void Employee_3_Edit_Personal_Detail() {
 	
 
 	}

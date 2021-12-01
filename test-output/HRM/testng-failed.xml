@@ -14,8 +14,6 @@
           <include name="deleteALlFilesInReportScreenshot"/>
           <include name="cleanBrower"/>
           <include name="Employee_1_Add_New_Employee"/>
-          <include name="Employee_1_Edit_Personal_Detail"/>
-          <include name="Employee_1_Upload_Avatar"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- HRM_Employee.Employee_1_Add_Employee -->

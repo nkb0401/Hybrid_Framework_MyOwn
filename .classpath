@@ -21,6 +21,26 @@
 	<classpathentry kind="lib" path="Libraries/Log4J/commons-lang3-3.8.1.jar"/>
 	<classpathentry kind="lib" path="Libraries/Log4J/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="Libraries/Log4J/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/allure-java-commons-2.13.5.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/allure-model-2.13.5.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/allure-testng-2.13.5.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/aspectjlib-1.6.2.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/aspectjrt-1.8.10.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/aspectjtools-1.8.10.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/aspectjweaver-1.8.10.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/jackson-core-2.9.8.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/jackson-databind-2.9.8.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/joor-java-8-0.9.10.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/tika-core-1.20.jar"/>
 	<classpathentry kind="src" path="Actions"/>
 	<classpathentry kind="src" path="Interface"/>
 	<classpathentry kind="src" path="RunTestcase"/>

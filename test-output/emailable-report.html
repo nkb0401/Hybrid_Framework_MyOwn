@@ -9,131 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">HRM</th></tr>
-<tr><td><a href="#t0">run_Firefox</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">13,774</td><td></td><td></td></tr>
+<tr><td><a href="#t0">run_Firefox</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">32,306</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">HRM</th></tr></tbody><tbody id="t0"><tr><th colspan="4">run_Firefox &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">HRM_Employee.Employee_1_Add_Employee</td><td><a href="#m0">beforeClass</a></td><td rowspan="1">1638258085615</td><td rowspan="1">13186</td></tr><tr><th colspan="4">run_Firefox &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">HRM_Employee.Employee_1_Add_Employee</td><td><a href="#m1">Employee_1_Add_New_Employee</a></td><td rowspan="1">1638258098809</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">Employee_1_Edit_Personal_Detail</a></td><td rowspan="1">1638258098812</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">Employee_1_Upload_Avatar</a></td><td rowspan="1">1638258098813</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">HRM</th></tr></tbody><tbody id="t0"><tr><th colspan="4">run_Firefox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">HRM_Employee.Employee_1_Add_Employee</td><td><a href="#m0">Employee_1_Add_New_Employee</a></td><td rowspan="1">1638349451085</td><td rowspan="1">22350</td></tr><tr><th colspan="4">run_Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">HRM_Employee.Employee_1_Add_Employee</td><td><a href="#m1">Employee_2_Upload_Avatar</a></td><td rowspan="1">1638349473638</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m2">Employee_3_Edit_Personal_Detail</a></td><td rowspan="1">1638349473642</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>run_Firefox</h2><h3 id="m0">HRM_Employee.Employee_1_Add_Employee#beforeClass</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chrome</td><td>https://opensource-demo.orangehrmlive.com/</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">[INFO ] [2021-11-30 14:41:25,618] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
-<br><br/>[INFO ] [2021-11-30 14:41:30,303] Pre-conditon: Step2: Login by admin role
-<br></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;txtUsername&apos;] (tried for 8 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at Commons.BasePage.waitForElementVisible(BasePage.java:448)
-	at Commons.BasePage.enterToTextboxByID(BasePage.java:481)
-	at HRM_Employee.Employee_1_Add_Employee.beforeClass(Employee_1_Add_Employee.java:29)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=96.0.4664.45)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;LAPTOP-7MH8S9EP&apos;, ip: &apos;192.168.198.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\BANG\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be2ae4b47e20c86221983dee32af1f7a
-*** Element info: {Using=xpath, value=//input[@id=&apos;txtUsername&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 29 more
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">HRM_Employee.Employee_1_Add_Employee#Employee_1_Add_New_Employee</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;txtUsername&apos;] (tried for 8 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at Commons.BasePage.waitForElementVisible(BasePage.java:448)
-	at Commons.BasePage.enterToTextboxByID(BasePage.java:481)
-	at HRM_Employee.Employee_1_Add_Employee.beforeClass(Employee_1_Add_Employee.java:29)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=96.0.4664.45)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;LAPTOP-7MH8S9EP&apos;, ip: &apos;192.168.198.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\BANG\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be2ae4b47e20c86221983dee32af1f7a
-*** Element info: {Using=xpath, value=//input[@id=&apos;txtUsername&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 29 more
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">HRM_Employee.Employee_1_Add_Employee#Employee_1_Edit_Personal_Detail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;txtUsername&apos;] (tried for 8 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at Commons.BasePage.waitForElementVisible(BasePage.java:448)
-	at Commons.BasePage.enterToTextboxByID(BasePage.java:481)
-	at HRM_Employee.Employee_1_Add_Employee.beforeClass(Employee_1_Add_Employee.java:29)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=96.0.4664.45)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;LAPTOP-7MH8S9EP&apos;, ip: &apos;192.168.198.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\BANG\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be2ae4b47e20c86221983dee32af1f7a
-*** Element info: {Using=xpath, value=//input[@id=&apos;txtUsername&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 29 more
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">HRM_Employee.Employee_1_Add_Employee#Employee_1_Upload_Avatar</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;txtUsername&apos;] (tried for 8 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at Commons.BasePage.waitForElementVisible(BasePage.java:448)
-	at Commons.BasePage.enterToTextboxByID(BasePage.java:481)
-	at HRM_Employee.Employee_1_Add_Employee.beforeClass(Employee_1_Add_Employee.java:29)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=96.0.4664.45)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;LAPTOP-7MH8S9EP&apos;, ip: &apos;192.168.198.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\BANG\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be2ae4b47e20c86221983dee32af1f7a
-*** Element info: {Using=xpath, value=//input[@id=&apos;txtUsername&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 29 more
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>run_Firefox</h2><h3 id="m0">HRM_Employee.Employee_1_Add_Employee#Employee_1_Add_New_Employee</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2021-12-01 16:04:11,115]  AddNewEmployee - Step 1: open 'Employee list' 
+<br><br/>[INFO ] [2021-12-01 16:04:13,792]  AddNewEmployee - Step 2: click 'add' button
+<br><br/>[INFO ] [2021-12-01 16:04:14,538]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
+<br><br/>[INFO ] [2021-12-01 16:04:14,670]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
+<br><br/>[INFO ] [2021-12-01 16:04:14,791]  AddNewEmployee - Step 5: Get value of 'Employee ID'
+<br><br/>[INFO ] [2021-12-01 16:04:14,847]  AddNewEmployee - Step 6: click to 'create login detail'
+<br><br/>[INFO ] [2021-12-01 16:04:14,948]  AddNewEmployee - Step 7: enter 'User name' textbox
+<br><br/>[INFO ] [2021-12-01 16:04:15,072]  AddNewEmployee - Step 8: enter 'password' textbox
+<br><br/>[INFO ] [2021-12-01 16:04:15,219]  AddNewEmployee - Step 9: enter 'confirm password' textbox
+<br><br/>[INFO ] [2021-12-01 16:04:15,351]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
+<br><br/>[INFO ] [2021-12-01 16:04:15,433]  AddNewEmployee - Step 11: click 'save' button
+<br><br/>[INFO ] [2021-12-01 16:04:15,571]  AddNewEmployee - Step 12: open 'Employee list' 
+<br><br/>[INFO ] [2021-12-01 16:04:17,642]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
+<br><br/>[INFO ] [2021-12-01 16:04:27,783]  AddNewEmployee - Step 14: click 'search' button
+<br><br/>[INFO ] [2021-12-01 16:04:33,346]  AddNewEmployee - Step 15: Verify emplyeee info at table
+<br><br/>[INFO ] [2021-12-01 16:04:33,434]  -------------------------- FAILED -------------------------- 
+<br><br/><br><a target="_blank" href="file:///D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn/test-output/ReportNGScreenShots/Employee_1_Add_New_Employee_01_12_2021_04_04_33.png"><img src="file:///D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn/test-output/ReportNGScreenShots/Employee_1_Add_New_Employee_01_12_2021_04_04_33.png" height='100' width='150'/> </a></br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [KHOA1] but found [KHOA]
+	at Commons.BaseTest.checkEquals(BaseTest.java:132)
+	at Commons.BaseTest.verifyEquals(BaseTest.java:146)
+	at HRM_Employee.Employee_1_Add_Employee.Employee_1_Add_New_Employee(Employee_1_Add_Employee.java:97)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">HRM_Employee.Employee_1_Add_Employee#Employee_2_Upload_Avatar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">HRM_Employee.Employee_1_Add_Employee#Employee_3_Edit_Personal_Detail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

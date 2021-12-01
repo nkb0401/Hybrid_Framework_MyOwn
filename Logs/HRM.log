@@ -1,44 +1,57 @@
-[INFO ] [2021-11-30 11:41:01,053] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
-[INFO ] [2021-11-30 11:41:06,547] Pre-conditon: Step2: Login by admin role
-[INFO ] [2021-11-30 11:41:10,726]  AddNewEmployee - Step 1: open 'Employee list' 
-[INFO ] [2021-11-30 11:41:13,358]  AddNewEmployee - Step 2: click 'add' button
-[INFO ] [2021-11-30 11:41:14,183]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
-[INFO ] [2021-11-30 11:41:14,319]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
-[INFO ] [2021-11-30 11:41:14,448]  AddNewEmployee - Step 5: Get value of 'Employee ID'
-[INFO ] [2021-11-30 11:41:14,502]  AddNewEmployee - Step 6: click to 'create login detail'
-[INFO ] [2021-11-30 11:41:14,606]  AddNewEmployee - Step 7: enter 'User name' textbox
-[INFO ] [2021-11-30 11:41:14,743]  AddNewEmployee - Step 8: enter 'password' textbox
-[INFO ] [2021-11-30 11:41:14,908]  AddNewEmployee - Step 9: enter 'confirm password' textbox
-[INFO ] [2021-11-30 11:41:15,038]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
-[INFO ] [2021-11-30 11:41:15,119]  AddNewEmployee - Step 11: click 'save' button
-[INFO ] [2021-11-30 11:41:15,239]  AddNewEmployee - Step 12: open 'Employee list' 
-[INFO ] [2021-11-30 11:41:18,820]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
-[INFO ] [2021-11-30 11:41:28,991]  AddNewEmployee - Step 14: click 'search' button
-[INFO ] [2021-11-30 11:41:34,686]  AddNewEmployee - Step 15: Verify emplyeee info at table
-[INFO ] [2021-11-30 11:41:34,795]  -------------------------- FAILED -------------------------- 
-[INFO ] [2021-11-30 11:41:34,990] Post-Condition: Close browerchrome
-[INFO ] [2021-11-30 11:41:35,602] Pre-conditon: Step1: Open Browerfirefoxgo tohttps://opensource-demo.orangehrmlive.com/
-[INFO ] [2021-11-30 11:41:43,279] Pre-conditon: Step2: Login by admin role
-[INFO ] [2021-11-30 11:41:45,731] Post-Condition: Close browerfirefox
-[INFO ] [2021-11-30 13:50:36,424] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
-[INFO ] [2021-11-30 13:50:53,077] Pre-conditon: Step2: Login by admin role
-[INFO ] [2021-11-30 13:50:57,007]  AddNewEmployee - Step 1: open 'Employee list' 
-[INFO ] [2021-11-30 13:50:59,637]  AddNewEmployee - Step 2: click 'add' button
-[INFO ] [2021-11-30 13:51:00,481]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
-[INFO ] [2021-11-30 13:51:00,610]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
-[INFO ] [2021-11-30 13:51:00,748]  AddNewEmployee - Step 5: Get value of 'Employee ID'
-[INFO ] [2021-11-30 13:51:00,800]  AddNewEmployee - Step 6: click to 'create login detail'
-[INFO ] [2021-11-30 13:51:00,937]  AddNewEmployee - Step 7: enter 'User name' textbox
-[INFO ] [2021-11-30 13:51:01,071]  AddNewEmployee - Step 8: enter 'password' textbox
-[INFO ] [2021-11-30 13:51:01,201]  AddNewEmployee - Step 9: enter 'confirm password' textbox
-[INFO ] [2021-11-30 13:51:01,338]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
-[INFO ] [2021-11-30 13:51:01,431]  AddNewEmployee - Step 11: click 'save' button
-[INFO ] [2021-11-30 13:51:01,572]  AddNewEmployee - Step 12: open 'Employee list' 
-[INFO ] [2021-11-30 13:51:05,243]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
-[INFO ] [2021-11-30 13:51:15,391]  AddNewEmployee - Step 14: click 'search' button
-[INFO ] [2021-11-30 13:51:21,026]  AddNewEmployee - Step 15: Verify emplyeee info at table
-[INFO ] [2021-11-30 13:51:21,103]  -------------------------- FAILED -------------------------- 
-[INFO ] [2021-11-30 13:51:21,253] Post-Condition: Close browerchrome
-[INFO ] [2021-11-30 14:41:25,618] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
-[INFO ] [2021-11-30 14:41:30,303] Pre-conditon: Step2: Login by admin role
-[INFO ] [2021-11-30 14:41:38,814] Post-Condition: Close browerchrome
+[INFO ] [2021-12-01 15:17:58,179] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
+[INFO ] [2021-12-01 15:18:03,718] Pre-conditon: Step2: Login by admin role
+[INFO ] [2021-12-01 15:18:07,442]  AddNewEmployee - Step 1: open 'Employee list' 
+[INFO ] [2021-12-01 15:18:09,921]  AddNewEmployee - Step 2: click 'add' button
+[INFO ] [2021-12-01 15:18:10,645]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
+[INFO ] [2021-12-01 15:18:10,801]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
+[INFO ] [2021-12-01 15:18:10,920]  AddNewEmployee - Step 5: Get value of 'Employee ID'
+[INFO ] [2021-12-01 15:18:10,978]  AddNewEmployee - Step 6: click to 'create login detail'
+[INFO ] [2021-12-01 15:18:11,080]  AddNewEmployee - Step 7: enter 'User name' textbox
+[INFO ] [2021-12-01 15:18:11,200]  AddNewEmployee - Step 8: enter 'password' textbox
+[INFO ] [2021-12-01 15:18:11,346]  AddNewEmployee - Step 9: enter 'confirm password' textbox
+[INFO ] [2021-12-01 15:18:11,494]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
+[INFO ] [2021-12-01 15:18:11,579]  AddNewEmployee - Step 11: click 'save' button
+[INFO ] [2021-12-01 15:18:11,703]  AddNewEmployee - Step 12: open 'Employee list' 
+[INFO ] [2021-12-01 15:18:14,940]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
+[INFO ] [2021-12-01 15:18:25,105]  AddNewEmployee - Step 14: click 'search' button
+[INFO ] [2021-12-01 15:18:30,674]  AddNewEmployee - Step 15: Verify emplyeee info at table
+[INFO ] [2021-12-01 15:18:30,754]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-01 15:18:30,934] Post-Condition: Close browerchrome
+[INFO ] [2021-12-01 15:59:08,935] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
+[INFO ] [2021-12-01 15:59:14,746] Pre-conditon: Step2: Login by admin role
+[INFO ] [2021-12-01 15:59:18,493]  AddNewEmployee - Step 1: open 'Employee list' 
+[INFO ] [2021-12-01 15:59:21,223]  AddNewEmployee - Step 2: click 'add' button
+[INFO ] [2021-12-01 15:59:21,934]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
+[INFO ] [2021-12-01 15:59:22,064]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
+[INFO ] [2021-12-01 15:59:22,187]  AddNewEmployee - Step 5: Get value of 'Employee ID'
+[INFO ] [2021-12-01 15:59:22,257]  AddNewEmployee - Step 6: click to 'create login detail'
+[INFO ] [2021-12-01 15:59:22,358]  AddNewEmployee - Step 7: enter 'User name' textbox
+[INFO ] [2021-12-01 15:59:22,479]  AddNewEmployee - Step 8: enter 'password' textbox
+[INFO ] [2021-12-01 15:59:22,613]  AddNewEmployee - Step 9: enter 'confirm password' textbox
+[INFO ] [2021-12-01 15:59:22,749]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
+[INFO ] [2021-12-01 15:59:22,835]  AddNewEmployee - Step 11: click 'save' button
+[INFO ] [2021-12-01 15:59:22,956]  AddNewEmployee - Step 12: open 'Employee list' 
+[INFO ] [2021-12-01 15:59:25,132]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
+[INFO ] [2021-12-01 15:59:35,284]  AddNewEmployee - Step 14: click 'search' button
+[INFO ] [2021-12-01 15:59:40,898]  AddNewEmployee - Step 15: Verify emplyeee info at table
+[INFO ] [2021-12-01 15:59:40,974]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-01 15:59:41,236] Post-Condition: Close browerchrome
+[INFO ] [2021-12-01 16:04:01,940] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
+[INFO ] [2021-12-01 16:04:07,233] Pre-conditon: Step2: Login by admin role
+[INFO ] [2021-12-01 16:04:11,115]  AddNewEmployee - Step 1: open 'Employee list' 
+[INFO ] [2021-12-01 16:04:13,792]  AddNewEmployee - Step 2: click 'add' button
+[INFO ] [2021-12-01 16:04:14,538]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
+[INFO ] [2021-12-01 16:04:14,670]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
+[INFO ] [2021-12-01 16:04:14,791]  AddNewEmployee - Step 5: Get value of 'Employee ID'
+[INFO ] [2021-12-01 16:04:14,847]  AddNewEmployee - Step 6: click to 'create login detail'
+[INFO ] [2021-12-01 16:04:14,948]  AddNewEmployee - Step 7: enter 'User name' textbox
+[INFO ] [2021-12-01 16:04:15,072]  AddNewEmployee - Step 8: enter 'password' textbox
+[INFO ] [2021-12-01 16:04:15,219]  AddNewEmployee - Step 9: enter 'confirm password' textbox
+[INFO ] [2021-12-01 16:04:15,351]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
+[INFO ] [2021-12-01 16:04:15,433]  AddNewEmployee - Step 11: click 'save' button
+[INFO ] [2021-12-01 16:04:15,571]  AddNewEmployee - Step 12: open 'Employee list' 
+[INFO ] [2021-12-01 16:04:17,642]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
+[INFO ] [2021-12-01 16:04:27,783]  AddNewEmployee - Step 14: click 'search' button
+[INFO ] [2021-12-01 16:04:33,346]  AddNewEmployee - Step 15: Verify emplyeee info at table
+[INFO ] [2021-12-01 16:04:33,434]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-01 16:04:33,646] Post-Condition: Close browerchrome
