@@ -94,7 +94,7 @@ public class Employee_1_Add_Employee extends BaseTest{
 		EmployeeListPage.sleepInSecond(5);
 		
 		log.info(" AddNewEmployee - Step 15: Verify emplyeee info at table" );
-		verifyEquals(EmployeeListPage.getValueDisplayedAtTable(driver,"resultTable","Last Name","1"),"KHOA1");
+		verifyEquals(EmployeeListPage.getValueDisplayedAtTable(driver,"resultTable","Last Name","1"),"KHOA1123");
 	}
 	
 	

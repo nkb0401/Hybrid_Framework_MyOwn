@@ -2,95 +2,92 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:01,940] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
+      <![CDATA[[INFO ] [2021-12-02 15:21:14,805] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:07,233] Pre-conditon: Step2: Login by admin role
+      <![CDATA[[INFO ] [2021-12-02 15:21:20,438] Pre-conditon: Step2: Login by admin role
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:11,115]  AddNewEmployee - Step 1: open 'Employee list' 
+      <![CDATA[[INFO ] [2021-12-02 15:21:24,128]  AddNewEmployee - Step 1: open 'Employee list' 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:13,792]  AddNewEmployee - Step 2: click 'add' button
+      <![CDATA[[INFO ] [2021-12-02 15:21:26,629]  AddNewEmployee - Step 2: click 'add' button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:14,538]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
+      <![CDATA[[INFO ] [2021-12-02 15:21:27,380]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:14,670]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
+      <![CDATA[[INFO ] [2021-12-02 15:21:27,506]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:14,791]  AddNewEmployee - Step 5: Get value of 'Employee ID'
+      <![CDATA[[INFO ] [2021-12-02 15:21:27,628]  AddNewEmployee - Step 5: Get value of 'Employee ID'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:14,847]  AddNewEmployee - Step 6: click to 'create login detail'
+      <![CDATA[[INFO ] [2021-12-02 15:21:27,684]  AddNewEmployee - Step 6: click to 'create login detail'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:14,948]  AddNewEmployee - Step 7: enter 'User name' textbox
+      <![CDATA[[INFO ] [2021-12-02 15:21:27,817]  AddNewEmployee - Step 7: enter 'User name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:15,072]  AddNewEmployee - Step 8: enter 'password' textbox
+      <![CDATA[[INFO ] [2021-12-02 15:21:27,936]  AddNewEmployee - Step 8: enter 'password' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:15,219]  AddNewEmployee - Step 9: enter 'confirm password' textbox
+      <![CDATA[[INFO ] [2021-12-02 15:21:28,066]  AddNewEmployee - Step 9: enter 'confirm password' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:15,351]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
+      <![CDATA[[INFO ] [2021-12-02 15:21:28,205]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:15,433]  AddNewEmployee - Step 11: click 'save' button
+      <![CDATA[[INFO ] [2021-12-02 15:21:28,342]  AddNewEmployee - Step 11: click 'save' button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:15,571]  AddNewEmployee - Step 12: open 'Employee list' 
+      <![CDATA[[INFO ] [2021-12-02 15:21:28,451]  AddNewEmployee - Step 12: open 'Employee list' 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:17,642]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
+      <![CDATA[[INFO ] [2021-12-02 15:21:30,409]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:27,783]  AddNewEmployee - Step 14: click 'search' button
+      <![CDATA[[INFO ] [2021-12-02 15:21:40,578]  AddNewEmployee - Step 14: click 'search' button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:33,346]  AddNewEmployee - Step 15: Verify emplyeee info at table
+      <![CDATA[[INFO ] [2021-12-02 15:21:46,129]  AddNewEmployee - Step 15: Verify emplyeee info at table
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:33,434]  -------------------------- FAILED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-02 15:21:46,221]  -------------------------- FAILED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[<br><a target="_blank" href="file:///D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn/test-output/ReportNGScreenShots/Employee_1_Add_New_Employee_01_12_2021_04_04_33.png"><img src="file:///D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn/test-output/ReportNGScreenShots/Employee_1_Add_New_Employee_01_12_2021_04_04_33.png" height='100' width='150'/> </a></br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-01 16:04:33,646] Post-Condition: Close browerchrome
+      <![CDATA[[INFO ] [2021-12-02 15:21:46,441] Post-Condition: Close browerchrome
 <br>]]>
     </line>
   </reporter-output>
-  <suite name="HRM" duration-ms="32306" started-at="2021-12-01T09:04:01Z" finished-at="2021-12-01T09:04:34Z">
+  <suite name="HRM" duration-ms="32308" started-at="2021-12-02T08:21:14Z" finished-at="2021-12-02T08:21:47Z">
     <groups>
     </groups>
-    <test name="run_Firefox" duration-ms="32306" started-at="2021-12-01T09:04:01Z" finished-at="2021-12-01T09:04:34Z">
+    <test name="run_Firefox" duration-ms="32308" started-at="2021-12-02T08:21:14Z" finished-at="2021-12-02T08:21:47Z">
       <class name="HRM_Employee.Employee_1_Add_Employee">
-        <test-method status="PASS" signature="deleteALlFilesInReportScreenshot()[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@149e0f5d]" name="deleteALlFilesInReportScreenshot" is-config="true" duration-ms="9" started-at="2021-12-01T09:04:01Z" finished-at="2021-12-01T09:04:01Z">
+        <test-method status="PASS" signature="deleteALlFilesInReportScreenshot()[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@10b3df93]" name="deleteALlFilesInReportScreenshot" is-config="true" duration-ms="27" started-at="2021-12-02T08:21:14Z" finished-at="2021-12-02T08:21:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteALlFilesInReportScreenshot -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@149e0f5d]" name="beforeClass" is-config="true" duration-ms="9145" started-at="2021-12-01T09:04:01Z" finished-at="2021-12-01T09:04:11Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@10b3df93]" name="beforeClass" is-config="true" duration-ms="9287" started-at="2021-12-02T08:21:14Z" finished-at="2021-12-02T08:21:24Z">
           <params>
             <param index="0">
               <value>
@@ -105,22 +102,22 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:01,940] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
+              <![CDATA[[INFO ] [2021-12-02 15:21:14,805] Pre-conditon: Step1: Open Browerchromego tohttps://opensource-demo.orangehrmlive.com/
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:07,233] Pre-conditon: Step2: Login by admin role
+              <![CDATA[[INFO ] [2021-12-02 15:21:20,438] Pre-conditon: Step2: Login by admin role
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="Employee_1_Add_New_Employee()[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@149e0f5d]" name="Employee_1_Add_New_Employee" duration-ms="22350" started-at="2021-12-01T09:04:11Z" finished-at="2021-12-01T09:04:33Z">
+        <test-method status="FAIL" signature="Employee_1_Add_New_Employee()[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@10b3df93]" name="Employee_1_Add_New_Employee" duration-ms="22132" started-at="2021-12-02T08:21:24Z" finished-at="2021-12-02T08:21:46Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [KHOA1] but found [KHOA]]]>
+              <![CDATA[expected [KHOA1123] but found [KHOA]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [KHOA1] but found [KHOA]
+              <![CDATA[java.lang.AssertionError: expected [KHOA1123] but found [KHOA]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -159,83 +156,80 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:11,115]  AddNewEmployee - Step 1: open 'Employee list' 
+              <![CDATA[[INFO ] [2021-12-02 15:21:24,128]  AddNewEmployee - Step 1: open 'Employee list' 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:13,792]  AddNewEmployee - Step 2: click 'add' button
+              <![CDATA[[INFO ] [2021-12-02 15:21:26,629]  AddNewEmployee - Step 2: click 'add' button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:14,538]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
+              <![CDATA[[INFO ] [2021-12-02 15:21:27,380]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:14,670]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
+              <![CDATA[[INFO ] [2021-12-02 15:21:27,506]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:14,791]  AddNewEmployee - Step 5: Get value of 'Employee ID'
+              <![CDATA[[INFO ] [2021-12-02 15:21:27,628]  AddNewEmployee - Step 5: Get value of 'Employee ID'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:14,847]  AddNewEmployee - Step 6: click to 'create login detail'
+              <![CDATA[[INFO ] [2021-12-02 15:21:27,684]  AddNewEmployee - Step 6: click to 'create login detail'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:14,948]  AddNewEmployee - Step 7: enter 'User name' textbox
+              <![CDATA[[INFO ] [2021-12-02 15:21:27,817]  AddNewEmployee - Step 7: enter 'User name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:15,072]  AddNewEmployee - Step 8: enter 'password' textbox
+              <![CDATA[[INFO ] [2021-12-02 15:21:27,936]  AddNewEmployee - Step 8: enter 'password' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:15,219]  AddNewEmployee - Step 9: enter 'confirm password' textbox
+              <![CDATA[[INFO ] [2021-12-02 15:21:28,066]  AddNewEmployee - Step 9: enter 'confirm password' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:15,351]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
+              <![CDATA[[INFO ] [2021-12-02 15:21:28,205]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:15,433]  AddNewEmployee - Step 11: click 'save' button
+              <![CDATA[[INFO ] [2021-12-02 15:21:28,342]  AddNewEmployee - Step 11: click 'save' button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:15,571]  AddNewEmployee - Step 12: open 'Employee list' 
+              <![CDATA[[INFO ] [2021-12-02 15:21:28,451]  AddNewEmployee - Step 12: open 'Employee list' 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:17,642]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
+              <![CDATA[[INFO ] [2021-12-02 15:21:30,409]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:27,783]  AddNewEmployee - Step 14: click 'search' button
+              <![CDATA[[INFO ] [2021-12-02 15:21:40,578]  AddNewEmployee - Step 14: click 'search' button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:33,346]  AddNewEmployee - Step 15: Verify emplyeee info at table
+              <![CDATA[[INFO ] [2021-12-02 15:21:46,129]  AddNewEmployee - Step 15: Verify emplyeee info at table
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:33,434]  -------------------------- FAILED -------------------------- 
+              <![CDATA[[INFO ] [2021-12-02 15:21:46,221]  -------------------------- FAILED -------------------------- 
 <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><a target="_blank" href="file:///D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn/test-output/ReportNGScreenShots/Employee_1_Add_New_Employee_01_12_2021_04_04_33.png"><img src="file:///D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn/test-output/ReportNGScreenShots/Employee_1_Add_New_Employee_01_12_2021_04_04_33.png" height='100' width='150'/> </a></br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Employee_1_Add_New_Employee -->
-        <test-method status="PASS" signature="Employee_2_Upload_Avatar()[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@149e0f5d]" name="Employee_2_Upload_Avatar" duration-ms="2" started-at="2021-12-01T09:04:33Z" finished-at="2021-12-01T09:04:33Z">
+        <test-method status="PASS" signature="Employee_2_Upload_Avatar()[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@10b3df93]" name="Employee_2_Upload_Avatar" duration-ms="2" started-at="2021-12-02T08:21:46Z" finished-at="2021-12-02T08:21:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Employee_2_Upload_Avatar -->
-        <test-method status="PASS" signature="Employee_3_Edit_Personal_Detail()[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@149e0f5d]" name="Employee_3_Edit_Personal_Detail" duration-ms="2" started-at="2021-12-01T09:04:33Z" finished-at="2021-12-01T09:04:33Z">
+        <test-method status="PASS" signature="Employee_3_Edit_Personal_Detail()[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@10b3df93]" name="Employee_3_Edit_Personal_Detail" duration-ms="2" started-at="2021-12-02T08:21:46Z" finished-at="2021-12-02T08:21:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Employee_3_Edit_Personal_Detail -->
-        <test-method status="PASS" signature="cleanBrower(java.lang.String)[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@149e0f5d]" name="cleanBrower" is-config="true" duration-ms="577" started-at="2021-12-01T09:04:33Z" finished-at="2021-12-01T09:04:34Z">
+        <test-method status="PASS" signature="cleanBrower(java.lang.String)[pri:0, instance:HRM_Employee.Employee_1_Add_Employee@10b3df93]" name="cleanBrower" is-config="true" duration-ms="619" started-at="2021-12-02T08:21:46Z" finished-at="2021-12-02T08:21:47Z">
           <params>
             <param index="0">
               <value>
@@ -245,7 +239,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-01 16:04:33,646] Post-Condition: Close browerchrome
+              <![CDATA[[INFO ] [2021-12-02 15:21:46,441] Post-Condition: Close browerchrome
 <br>]]>
             </line>
           </reporter-output>

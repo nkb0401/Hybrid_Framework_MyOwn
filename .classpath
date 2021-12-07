@@ -41,6 +41,13 @@
 	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/okio-1.14.1.jar"/>
 	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/slf4j-api-1.7.30.jar"/>
 	<classpathentry kind="lib" path="Libraries/Allure Report/Allure Report 2.13.5/tika-core-1.20.jar"/>
+	<classpathentry kind="lib" path="Libraries/Extend report v2/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="Libraries/Extend report v2/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="Libraries/Extend report v2/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="Libraries/Extend report v2/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="Libraries/Extend report v2/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="Libraries/Extend report v2/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="Libraries/Extend report v2/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry kind="src" path="Actions"/>
 	<classpathentry kind="src" path="Interface"/>
 	<classpathentry kind="src" path="RunTestcase"/>

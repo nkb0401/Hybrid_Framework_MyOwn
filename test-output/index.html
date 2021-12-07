@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-HRM">
-                    <span>D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn\RunTestcase\RunTestcase_testNG.xml</span>
+                    <span>D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn\RunTestcase\RunTestcase2_allure_report.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -147,7 +147,7 @@
                   <a name="Employee_1_Add_New_Employee">
                   </a> <!-- Employee_1_Add_New_Employee -->
                   <span class="method-name">Employee_1_Add_New_Employee</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [KHOA1] but found [KHOA]
+                  <div class="stack-trace">java.lang.AssertionError: expected [KHOA1123] but found [KHOA]
 	at Commons.BaseTest.checkEquals(BaseTest.java:132)
 	at Commons.BaseTest.verifyEquals(BaseTest.java:146)
 	at HRM_Employee.Employee_1_Add_Employee.Employee_1_Add_New_Employee(Employee_1_Add_Employee.java:97)
@@ -182,7 +182,7 @@
         </div> <!-- panel HRM -->
         <div panel-name="test-xml-HRM" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn\RunTestcase\RunTestcase_testNG.xml</span>
+            <span class="header-content">D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn\RunTestcase\RunTestcase2_allure_report.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -192,7 +192,7 @@
   &lt;parameter name=&quot;url&quot; value=&quot;https://opensource-demo.orangehrmlive.com/&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Commons.MethodListener&quot;/&gt;
-    &lt;listener class-name=&quot;reportConfig.ReportNGListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.AllureTestListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;run_Firefox&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
@@ -241,13 +241,13 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Employee_1_Add_New_Employee')
 data.setCell(0, 2, 'HRM_Employee.Employee_1_Add_Employee')
-data.setCell(0, 3, 22350);
+data.setCell(0, 3, 22132);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Employee_2_Upload_Avatar')
+data.setCell(1, 1, 'Employee_3_Edit_Personal_Detail')
 data.setCell(1, 2, 'HRM_Employee.Employee_1_Add_Employee')
 data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Employee_3_Edit_Personal_Detail')
+data.setCell(2, 1, 'Employee_2_Upload_Avatar')
 data.setCell(2, 2, 'HRM_Employee.Employee_1_Add_Employee')
 data.setCell(2, 3, 2);
 window.suiteTableData['HRM']= { tableData: data, tableDiv: 'times-div-HRM'}
@@ -268,39 +268,38 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">Employee_1_Add_New_Employee</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:11,115]  AddNewEmployee - Step 1: open 'Employee list' 
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:24,128]  AddNewEmployee - Step 1: open 'Employee list' 
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:13,792]  AddNewEmployee - Step 2: click 'add' button
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:26,629]  AddNewEmployee - Step 2: click 'add' button
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:14,538]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:27,380]  AddNewEmployee - Step 3: enter valid to 'Frist Name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:14,670]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:27,506]  AddNewEmployee - Step 4: enter valid to 'Last Name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:14,791]  AddNewEmployee - Step 5: Get value of 'Employee ID'
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:27,628]  AddNewEmployee - Step 5: Get value of 'Employee ID'
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:14,847]  AddNewEmployee - Step 6: click to 'create login detail'
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:27,684]  AddNewEmployee - Step 6: click to 'create login detail'
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:14,948]  AddNewEmployee - Step 7: enter 'User name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:27,817]  AddNewEmployee - Step 7: enter 'User name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:15,072]  AddNewEmployee - Step 8: enter 'password' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:27,936]  AddNewEmployee - Step 8: enter 'password' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:15,219]  AddNewEmployee - Step 9: enter 'confirm password' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:28,066]  AddNewEmployee - Step 9: enter 'confirm password' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:15,351]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:28,205]  AddNewEmployee - Step 10: select 'status' checkbox = enable 
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:15,433]  AddNewEmployee - Step 11: click 'save' button
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:28,342]  AddNewEmployee - Step 11: click 'save' button
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:15,571]  AddNewEmployee - Step 12: open 'Employee list' 
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:28,451]  AddNewEmployee - Step 12: open 'Employee list' 
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:17,642]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:30,409]  AddNewEmployee - Step 13: enter valid to 'employee Name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:27,783]  AddNewEmployee - Step 14: click 'search' button
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:40,578]  AddNewEmployee - Step 14: click 'search' button
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:33,346]  AddNewEmployee - Step 15: Verify emplyeee info at table
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:46,129]  AddNewEmployee - Step 15: Verify emplyeee info at table
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-01 16:04:33,434]  -------------------------- FAILED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-02 15:21:46,221]  -------------------------- FAILED -------------------------- 
 <br></span>
-                <span class="reporter-method-output"><br><a target="_blank" href="file:///D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn/test-output/ReportNGScreenShots/Employee_1_Add_New_Employee_01_12_2021_04_04_33.png"><img src="file:///D:\TESTER\004_Auto\Source\My_Workplace\Hybrid_Framework_MyOwn/test-output/ReportNGScreenShots/Employee_1_Add_New_Employee_01_12_2021_04_04_33.png" height='100' width='150'/> </a></br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -325,25 +324,25 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass(chrome, https://opensource-demo.orangehrmlive.com/)</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Employee_1_Add_New_Employee</span>
-                <span class="method-start">9161 ms</span>
+                <span class="method-start">9328 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Employee_2_Upload_Avatar</span>
-                <span class="method-start">31714 ms</span>
+                <span class="method-start">31672 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Employee_3_Edit_Personal_Detail</span>
-                <span class="method-start">31718 ms</span>
+                <span class="method-start">31675 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">cleanBrower(chrome)</span>
-                <span class="method-start">31721 ms</span>
+                <span class="method-start">31678 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
